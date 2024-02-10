@@ -412,7 +412,7 @@ section .button button:hover {
     color: #fff;
 }
 
-/* Contact Me CSS */
+
 .contact {
     background: #F0F8FF;
 }
@@ -538,7 +538,8 @@ footer .text span a:hover {
     }
 
     nav .navbar .media-icons {
-        display: none;
+        display: flex;
+        margin-top: 20px;
     }
 
     nav .menu-btn,
@@ -590,8 +591,8 @@ footer .text span a:hover {
         font-size: 33px;
     }
 
-    .skills-details .boxes .per {
-        font-size: 50px;
+    .skills-details .boxes .star {
+        font-size: 10px;
         color: #4070f4;
     }
 }
