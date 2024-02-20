@@ -360,6 +360,24 @@ section .button button:hover {
     color: black;
 }
 
+.skills .boxes .box {
+    margin: 20px auto;
+    width: calc(100% / 3 - 40px);
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+    cursor: pointer; 
+    transition: all 0.4s ease;
+}
+
+
+.skills .boxes .box:hover {
+    border: 2px solid black;
+    box-shadow: 0 0 20px black; 
+}
+
+
 
 /* My Services CSS */
 .services .boxes {
