@@ -296,7 +296,6 @@ section .button button:hover {
 .skills {
     background: #F0F8FF;
     padding: 60px 0;
-    ;
 }
 
 .skills .content {
@@ -338,43 +337,36 @@ section .button button:hover {
 }
 
 .skills-details .boxes {
-    width: 45%;
+    width: 100%; /* Adjusted for responsiveness */
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center; /* Center the boxes */
 }
 
 .skills-details .box {
-    width: calc(100% / 2 - 20px);
-    margin: 20px 0;
-}
-
-.skills-details .boxes .topic {
-    font-size: 20px;
-    color: black;
-    text-align: center;
-}
-
-.skills-details .boxes .star {
-    font-size: 35px;
-    color: black;
-}
-
-.skills .boxes .box {
-    margin: 20px auto;
-    width: calc(100% / 3 - 40px);
+    width: calc(33.33% - 40px); /* Adjusted for responsiveness */
+    margin: 20px 20px; /* Adjusted for spacing */
     text-align: center;
     border-radius: 12px;
     padding: 30px 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
-    cursor: pointer; 
+    cursor: pointer;
     transition: all 0.4s ease;
 }
 
-
-.skills .boxes .box:hover {
+.skills-details .box:hover {
     border: 2px solid black;
-    box-shadow: 0 0 20px black; 
+    box-shadow: 0 0 20px black;
+}
+.skills-details .boxes .star {
+    font-size: 30px; 
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .skills-details .box {
+        width: calc(50% - 40px); 
+    }
 }
 
 
@@ -618,13 +610,13 @@ footer .text span a:hover {
     .boxes {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between; /* Aligns the boxes with space between them */
+        justify-content: space-between; 
     }
     
     @media (max-width: 750px) {
         .boxes .box {
-            width: calc(50% - 40px); /* Adjust for the left and right margins */
-            margin-bottom: 20px; /* Adds space between the rows */
+            width: calc(50% - 40px);
+            margin-bottom: 20px;
         }
     }
        
