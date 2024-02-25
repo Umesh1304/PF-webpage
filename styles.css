@@ -43,7 +43,7 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: whitesmoke;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -114,8 +114,8 @@ nav.sticky .menu a {
     color: #FFF;
 }
 
-nav.sticky .menu a:hover {
-    color: greenyellow;
+nav.sticky .menu a:hover  {
+    color: red;
 }
 
 .navbar .media-icons a {
@@ -125,7 +125,7 @@ nav.sticky .menu a:hover {
 }
 
 nav.sticky .media-icons a {
-    color: #FFF;
+    color: wheat;
 }
 
 nav .menu-btn,
